@@ -1,1 +1,1 @@
-# first-ng-ass
+https://github.com/ausalmadi/first-ng-ass
