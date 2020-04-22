@@ -1,0 +1,11 @@
+.ui.dropdown{
+    padding: 0px;
+}
+.center{
+    
+    margin-left: 1%;
+}
+.ui[class*="four column"].grid>.column:not(.row), .ui[class*="four column"].grid>.row>.column {
+    width: 24%;
+}
+

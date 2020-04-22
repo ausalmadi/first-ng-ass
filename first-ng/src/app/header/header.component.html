@@ -1,0 +1,25 @@
+<nav class="ui stackable menu" >
+    <div class="ui image  small-log">
+        <img src="assets/logo.PNG" class=" item">
+    </div>
+    
+    <h1 class="ui small header item">Myntra</h1>
+    <a routerLink="header" routerLinkActive="active"></a>
+    <a routerLink="men" class="item" routerLinkActive="active">Men</a>
+    <a routerLink="women" class="item" routerLinkActive="active">Women</a>
+    <a routerLink="kids" class="item" routerLinkActive="active">Kids</a>
+    <a routerLink="home-and-living" class="item" routerLinkActive="active">Home&living</a>
+    <div class="ui search item right ">
+        <div class="ui icon input ">
+            <input class="prompt" type="text" placeholder="search...">
+            <i class="search icon"></i>
+          </div>
+          <div class="results"></div>
+          <i class="briefcase icon divider"></i>
+        <i class="user icon "></i>
+    </div>
+</nav>
+<div class="ui divider"></div>
+
+
+<router-outlet></router-outlet>
